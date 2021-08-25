@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User device:</strong>
+  <%= @order.user_device %>
+</p>
+
+<p>
+  <strong>Imei device:</strong>
+  <%= @order.imei_device %>
+</p>
+
+<p>
+  <strong>Annual price:</strong>
+  <%= @order.annual_price %>
+</p>
+
+<p>
+  <strong>Number installments:</strong>
+  <%= @order.number_installments %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @order.user %>
+</p>
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>
