@@ -5,20 +5,14 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby/Rails versions
 
-* System dependencies
+    ruby '2.6.3'
+    gem 'rails', '~> 5.2.6'
 
-* Configuration
+  * bundle install
+  * rails db:setup
+  * rails db:migrate
+  * rails db:seed
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  * rspec for tests
